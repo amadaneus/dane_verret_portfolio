@@ -61,3 +61,11 @@ puts "8 Ruby projects created!"
 end
 
 puts "1 web design project created!"
+
+3.times do |technology|
+  Portfolio.last.technologies.create!(
+      name: "Technology #{technology}"
+  )
+end
+
+puts "3 technologies created"
