@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d89dbba-f047-437e-810d-d644cc0646ca" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/controllers/concerns/set_source.rb" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -89,21 +88,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file leaf-file-name="application_controller.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <file leaf-file-name="portfolios_controller.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/controllers/portfolios_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="1237">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="set_source.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/concerns/set_source.rb">
+      <file leaf-file-name="blogs_controller.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+            <state relative-caret-position="711">
+              <caret line="74" column="3" lean-forward="false" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -155,7 +154,6 @@
         <option value="$PROJECT_DIR$/db/seeds.rb" />
         <option value="$PROJECT_DIR$/app/models/portfolio.rb" />
         <option value="$PROJECT_DIR$/app/views/portfolios/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/environments/development.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20180121000006_devise_create_users.rb" />
@@ -170,6 +168,7 @@
         <option value="$PROJECT_DIR$/app/controllers/concerns/social_sourcer.rb" />
         <option value="$PROJECT_DIR$/app/controllers/concerns/set_source.rb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/portfolios_controller.rb" />
       </list>
     </option>
   </component>
@@ -253,6 +252,11 @@
             </path>
             <path>
               <item name="dane_verret_portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dane_verret_portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dane_verret_portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -269,7 +273,7 @@
     <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/app/views/layouts/application.html.erb&#10;appli&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/app/controllers/application_controller.rb&#10;show&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/app/views/portfolios/show.html.erb&#10;home.html.erb&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/app/views/pages/home.html.erb&#10;user.rb&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/app/models/user.rb&#10;application.r&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/config/application.rb&#10;seeds&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/db/seeds.rb&#10;routes&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/config/routes.rb&#10;port&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/app/controllers/portfolios_controller.rb&#10;portf&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/app/models/portfolio.rb&#10;blog.rb&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/app/models/blog.rb&#10;schema.rb&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/db/schema.rb&#10;blog.rb &#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/app/models/blog.rb&#10;blogs_co&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/app/controllers/blogs_controller.rb&#10;schema&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/db/schema.rb&#10;database.yml&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/config/database.yml&#10;slugs&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/db/migrate/20180117181257_create_friendly_id_slugs.rb&#10;friendly_id&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/config/initializers/friendly_id.rb&#10;gemfile&#9;FILE&#9;file://C:/Users/Gola/develop/dane_verret_portfolio/Gemfile" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../devcamp-portfolio-master" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Ruby" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -413,11 +417,18 @@
       <option name="project" value="LOCAL" />
       <updated>1516564659739</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Refactors source tracker into separate concern">
+      <created>1516572596052</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1516572596052</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66489000" />
+    <option name="totallyTimeSpent" value="67602000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,7 +442,7 @@
   <component name="ToolWindowManager">
     <frame x="2053" y="6" width="1806" height="2034" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26594466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26594466" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295063" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902467" sideWeight="0.5048135" order="7" side_tool="true" content_ui="tabs" />
@@ -541,7 +552,8 @@
     <MESSAGE value="Adds custom parameters for user registration and editing accounts via Devise controller." />
     <MESSAGE value="Adds custom controller concerns for Devise whitelist params" />
     <MESSAGE value="Adds session tracker for dynamic source links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adds session tracker for dynamic source links" />
+    <MESSAGE value="Refactors source tracker into separate concern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactors source tracker into separate concern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -618,13 +630,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
           <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="757">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -793,14 +798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/portfolios_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="21" column="95" lean-forward="false" selection-start-line="21" selection-start-column="95" selection-end-line="21" selection-end-column="95" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
@@ -913,8 +910,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/blogs_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="74" column="3" lean-forward="false" selection-start-line="74" selection-start-column="3" selection-end-line="74" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/portfolios_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1237">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
