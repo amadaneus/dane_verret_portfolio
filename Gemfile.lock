@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/amadaneus/practice_view_tool
+  revision: 74cec2c0046eb0c4c26ed449d50c66addb411de6
+  specs:
+    practice_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -203,6 +209,7 @@ DEPENDENCIES
   jquery-rails
   mysql2 (>= 0.3.18, < 0.5)
   popper_js (~> 1.12.9)
+  practice_view_tool!
   puma (~> 3.7)
   rails (~> 5.1.4)
   sass-rails (~> 5.0)
