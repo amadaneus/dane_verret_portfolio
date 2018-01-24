@@ -28,7 +28,7 @@ gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.11', platforms: [:ruby, :mingw, :x64_mingw]
+gem 'bcrypt', '~> 3.1.11', platforms: [:ruby, :mingw, :x64_mingw]
 gem 'friendly_id', '~> 5.1.0'
 gem 'devise', '~> 4.4'
 gem 'bootstrap', '~> 4.0.0'
@@ -55,3 +55,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'practice_view_tool', git: 'https://github.com/amadaneus/practice_view_tool'
+gem 'petergate', '~> 1.6', '>= 1.6.3'
