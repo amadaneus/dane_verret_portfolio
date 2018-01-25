@@ -45,9 +45,16 @@ body {
 }
 
 .cover-container {
-  max-width: 42em;
+  max-width: 55em;
 }
 
+.content-box {
+  width: 18em;
+}
+
+.shim {
+  width: 20em;
+}
 
 /*
  * Header
