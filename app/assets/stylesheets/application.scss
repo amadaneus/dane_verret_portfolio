@@ -52,10 +52,6 @@ body {
   width: 18em;
 }
 
-.shim {
-  width: 20em;
-}
-
 /*
  * Header
  */
@@ -131,4 +127,19 @@ body {
 
 .auth-links a {
   color: black
+}
+
+.shim {
+  padding-left: 9em;
+}
+
+.login > .card {
+  width: 20em;
+  margin: 0 auto;
+  float: none;
+  margin-bottom: 10px;
+}
+
+.container-centered {
+  margin: 0 auto;
 }
