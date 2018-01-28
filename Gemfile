@@ -35,6 +35,9 @@ gem 'devise', '~> 4.4'
 gem 'bootstrap', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'popper_js', '~> 1.12.9'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.3'
+gem 'kaminari', '~> 1.1.1'
+gem 'certified', '~> 1.0'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
