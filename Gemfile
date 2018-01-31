@@ -60,3 +60,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'practice_view_tool', git: 'https://github.com/amadaneus/practice_view_tool'
 gem 'petergate', '~> 1.6', '>= 1.6.3'
+gem 'carrierwave', '~> 1.2', '>= 1.2.2'
+gem 'mini_magick', '~> 4.8'
+gem 'carrierwave-aws', '~> 1.3'
+gem 'dotenv-rails', '~> 2.2', '>= 2.2.1'
