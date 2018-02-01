@@ -14,13 +14,23 @@
 
   <body class="text-center">
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
-        <%= render "shared/application_nav" %>
 
-        <%= yield %>
+      <%= video_tag(
+              'LineyBlockSeq01.mp4',
+              id: 'hero-bg',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              poster: 'safety_bg.png'
+          )%>
 
-        <%= source_helper("application") %>
+      <%= render "shared/application_nav" %>
 
-        <%= render "shared/application_footer" %>
+      <%= yield %>
+
+      <%= source_helper("application") %>
+
+      <%= render "shared/application_footer" %>
     </div>
   </body>
 </html>
