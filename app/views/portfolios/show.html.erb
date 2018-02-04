@@ -17,12 +17,12 @@
         <p><%= t.name %></p>
       <% end %>
 
-      <%= link_to "Edit | ", edit_portfolio_path if logged_in?(:site_admin) %>
+      <% if logged_in?(:site_admin) %>
+        <div class="">
+          <%= link_to "Edit Item", edit_portfolio_path, class: 'btn btn-warning' %>
+        </div>
+      <% end %>
     </div>
   </div>
-
-
-
-
 </div>
 
