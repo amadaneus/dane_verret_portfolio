@@ -45,7 +45,7 @@ body {
 }
 
 .cover-container {
-  max-width: 55em;
+  max-width: 60em;
 }
 
 .content-box {
@@ -130,7 +130,7 @@ body {
 }
 
 .shim {
-  padding-left: 9em;
+  padding-left: 5em;
 }
 
 .login > .card {
@@ -166,4 +166,18 @@ body {
 
 .footer-color {
   color: white;
+}
+
+.tech-news {
+  color: black;
+  margin: 1.2em;
+
+}
+
+.tech-news a {
+  color: blue;
+}
+
+.tech-news > .card {
+ padding: 1.6em;
 }
