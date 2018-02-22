@@ -8,6 +8,8 @@
     <%= csrf_meta_tags %>
     <meta name="keywords" content="<%= @seo_keywords %>" />
 
+    <%= favicon_link_tag 'favicons/favicon.png' %>
+
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -16,7 +18,7 @@
     <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
 
       <%= video_tag(
-              'LineyBlockSeq01.mp4',
+              'SoftStreaks02.mp4',
               id: 'hero-bg',
               autoplay: true,
               loop: true,

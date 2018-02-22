@@ -45,7 +45,7 @@ body {
 }
 
 .cover-container {
-  max-width: 60em;
+  max-width: 70em;
 }
 
 .content-box {
@@ -180,4 +180,17 @@ body {
 
 .tech-news > .card {
  padding: 1.6em;
+}
+
+.app-card-container {
+  color: black;
+  justify-content: left;
+  margin-top: 100px;
+}
+
+.app-card-container > .card {
+  padding: 45px;
+
+}.app-card-container a {
+  color: blue;
 }
