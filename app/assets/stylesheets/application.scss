@@ -191,6 +191,19 @@ body {
 .app-card-container > .card {
   padding: 45px;
 
-}.app-card-container a {
+}
+
+.app-card-container a {
   color: blue;
+}
+
+.card-block {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: .75em
+}
+
+.skill {
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
