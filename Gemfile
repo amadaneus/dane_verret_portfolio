@@ -31,6 +31,10 @@ group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'capybara', '~> 2.13'
   gem 'selenium-webdriver'
+  gem 'capistrano'
+  gem 'capistrano-rails'
+  gem 'capistrano-rvm'
+  gem 'capistrano-puma'
 end
 
 group :development do
@@ -51,3 +55,4 @@ gem 'twitter', '~> 6.2'
 gem 'redis', '~> 4.0', '>= 4.0.1'
 gem 'redcarpet', '~> 3.4.0'
 gem 'coderay', '~> 1.1.2'
+gem 'figaro', '~> 1.1', '>= 1.1.1'
