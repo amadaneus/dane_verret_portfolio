@@ -1,7 +1,7 @@
 require_relative 'boot'
 
 require 'rails/all'
-
+require 'v8'
 
 
 # Require the gems listed in Gemfile, including any gems
