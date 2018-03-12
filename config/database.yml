@@ -12,7 +12,7 @@
 default: &default
   adapter: mysql2
   encoding: utf8
-  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  pool: 5
   username: dane_verret_portfolio
   password: password
   host: localhost
@@ -49,6 +49,10 @@ test:
 #
 production:
   <<: *default
-  database: dane_verret_portfolio_production
-  username: dane_verret_portfolio
-  password: <%= ENV['DANE_VERRET_PORTFOLIO_DATABASE_PASSWORD'] %>
+  adapter: mysql2
+  encoding: utf8
+  database: CONFIG[:db_prod)
+  username: CONFIG[:prod_user]
+  password: CONFIG[:prod_key]
+  host: CONFIG[:prod_host]
+  port: 3306
