@@ -89,15 +89,15 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  ActionMailer::Base.delivery_method = :smtp
-  ActionMailer::Base.server_settings = {
-      :address => "https://webmail.verrtah.com/",
-      :domain => "https://verrtah.com",
-      :port	=> 25,
+  config.action_mailer::Base.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+      :address => CONFIG[:domain],
+      :domain => "verrtah.com",
+      :port	=> 465,
       :authentication => :login,
-      :user_name => ENV["EMAILUSERNAME"],
-      :password => ENV["EMAILPASSWORD"]}
-  ActionMailer::Base.perform_deliveries = true
-  ActionMailer::Base.raise_delivery_errors = true
-  ActionMailer::Base.default_charset = "utf-8"
+      :user_name => CONFIG[:email_user],
+      :password => CONFIG[:email_pass]}
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default_charset = "utf-8"
 end
