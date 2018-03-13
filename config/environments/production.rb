@@ -91,12 +91,12 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
-      :address => CONFIG[:domain],
+      :address => ENV["domain"],
       :domain => "verrtah.com",
       :port	=> 465,
       :authentication => :login,
-      :user_name => CONFIG[:email_user],
-      :password => CONFIG[:email_pass]}
+      :user_name => ENV["email_user"],
+      :password => ENV["email_pass"]}
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default_charset = "utf-8"

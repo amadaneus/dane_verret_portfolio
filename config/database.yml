@@ -51,8 +51,8 @@ production:
   <<: *default
   adapter: mysql2
   encoding: utf8
-  database: CONFIG[:db_prod)
-  username: CONFIG[:prod_user]
-  password: CONFIG[:prod_key]
-  host: CONFIG[:prod_host]
+  database: ENV["db_prod"]
+  username: ENV["prod_user"]
+  password: ENV["prod_key"]
+  host: ENV["prod_host"]
   port: 3306

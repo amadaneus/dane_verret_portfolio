@@ -1,6 +1,6 @@
 CarrierWave.configure do |config|
   config.storage    = :aws
-  config.aws_bucket = CONFIG[':s3_bucket']
+  config.aws_bucket = ENV["s3_bucket"]
   config.aws_acl    = 'public-read'
   config.aws_authenticated_url_expiration = 60 * 60 * 24 * 7
 
@@ -15,8 +15,8 @@ CarrierWave.configure do |config|
   }
 
   config.aws_credentials = {
-      access_key_id:     CONFIG[':s3_id'],
-      secret_access_key: CONFIG[':s3_key'],
-      region:            CONFIG['region'] # Required
+      access_key_id:     ENV["s3_id"],
+      secret_access_key: ENV["s3_key"],
+      region:            ENV["region"] # Required
   }
 end
