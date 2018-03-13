@@ -54,4 +54,3 @@ production:
   database: ENV["db_prod"]
   username: ENV["prod_user"]
   password: ENV["prod_key"]
-  port: 3306
