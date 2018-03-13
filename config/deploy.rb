@@ -12,6 +12,8 @@ set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets vendor/bundle public
 set :keep_releases, 5
 set :rvm_type, :user
 
+role :db, ENV["prod_host"]
+
 set :ssh_options, {
     forward_agent: true,
     auth_methods: ["publickey"],

@@ -1,5 +1,8 @@
-server 'jcadb', roles: %w{web app db},
+server 'jcadb', roles: %w{web app},
 forward_agent: true
+
+role :db, ENV["prod_host"]
+
 # server-based syntax
 # ======================
 # Defines a single server with a list of roles and multiple properties.
